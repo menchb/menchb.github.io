@@ -1,0 +1,22 @@
+body {
+    background-image: url("background-image-by-lukas.jpg");
+    /* background-position: center; */
+    background-size: auto 100vh;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+.constructionNotice {
+    text-align: center;
+    margin-top: 30vh;
+
+}
+
+@media (min-aspect-ratio: 4928/3249) {
+    body {
+        background-size: 100vw auto;
+    }
+}
