@@ -11,8 +11,7 @@ body {
 
 .constructionNotice {
     text-align: center;
-    margin-top: 30vh;
-
+    margin-top: 40vh;
 }
 
 @media (min-aspect-ratio: 4928/3249) {
