@@ -24,7 +24,6 @@ ul {
 li {
     list-style-type: none;
     background-color: none;
-    margin: auto .1in;
 }
 
 button {
@@ -41,10 +40,32 @@ button:hover {
 }
 
 div {
-    width: 1000px;
+    width: 800px;
     margin: 1in auto;
     line-height: 1.5;
 }
+
+table {
+    margin: 40px auto;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    margin: auto;
+    padding: 25px;
+    background-color: #cccccc;
+    border-radius: 10px;
+    color: darkslategray;
+    /* transition: padding .5s; */
+}
+
+/* section:visited {
+    padding: 100px 0 0;
+} */
 
 hr {
     width: 80%;
@@ -67,6 +88,10 @@ a:hover {
     border-radius: 10px;
 }
 
+abbr {
+    text-decoration: none;
+}
+
 .constructionNotice {
     text-align: center;
     margin-top: 30vh;
@@ -74,6 +99,35 @@ a:hover {
 
 .icon {
     width: 300px;
+}
+
+.acadYear{
+    width: 1in;
+}
+
+.expandable:hover {
+    color: gray;
+    border-radius: 10px;
+}
+
+#constructionNotice{
+    display: none;
+}
+
+#education {
+    display: none;
+}
+#tertiaryDetails {
+    display: none;
+}
+#seniorHighDetails{
+    display: none;
+}
+#juniorHighDetails{
+    display: none;
+}
+#elementaryDetails{
+    display: none;
 }
 
 @media (min-aspect-ratio: 4928/3249) {

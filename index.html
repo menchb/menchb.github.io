@@ -8,20 +8,17 @@
     <meta name="description" content="Website Portfolio">
     <meta name="author" content="Menchie Belarmino">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js" async></script>
+    <script src="script.js" defer></script>
 </head>
 
 <body>
-    
-
-    
     <header>
         <img class="icon" src="Belarmino.png" alt="A photo of Menchie Belarmino">
         <h1>Menchie Belarmino</h1>
         <nav>
             <ul>
-                <li><button onclick="window.location.reload()">Overview</button></li>
-                <li><button onclick="displayNotice()">Education</button></li>
+                <li><button onclick="displayOverview()">Overview</button></li>
+                <li><button onclick="displayEducation()">Education</button></li>
                 <li><button onclick="displayNotice()">Skills</button></li>
                 <li><button onclick="displayNotice()">Projects</button></li>
                 <li><button onclick="displayNotice()">Download Resume</button></li>
@@ -43,7 +40,6 @@
                 My name is Menchie B. Belarmino, and I'm 20 years old.
                 I'm currently studying IT at Bicol University on my third year. 
                 My college education is made possible with the scholarship I earned from Department of Science and Technology.
-                <!-- <abbr title="Department of Science and Technology">DOST</abbr> -->
             </p>
             <p>
                 I've been <i>so</i> into aesthetics ever since I was a kid.
@@ -63,17 +59,65 @@
             </p>
         </div>
 
-        <table>
-            <th>
-                <td></td>
-            </th>
-            <tr>
-                <td></td>
-            </tr>
-        </table>
+        <div id="education">
+            <h2>My Academe Journey</h2>
+            <table>
+                <tr>
+                    <th>Institution (Course/Strand)</th>
+                    <th>Year</th>
+                </tr>
+                <tr class="expandable" onclick="expandDetails(`tertiaryDetails`)">
+                    <td>Bicol University (BS Information Technology)</td>
+                    <td class="acadYear">2020 - 2024</td>
+                </tr>
+                <tr class="expandable" onclick="expandDetails(`seniorHighDetails`)">
+                    <td>Senior High: Tabaco National High School (Science, Technology, Engineering, & Mathematics)</td>
+                    <td class="acadYear">2018 - 2020</td>
+                </tr>
+                <tr class="expandable" onclick="expandDetails(`juniorHighDetails`)">
+                    <td>Junior High: Tabaco National High School</td>
+                    <td class="acadYear">2014 - 2018</td>
+                </tr>
+                <tr class="expandable" onclick="expandDetails(`elementaryDetails`)">
+                    <td>Tabaco South Central Elementary School</td>
+                    <td class="acadYear">2007 - 2014</td>
+                </tr>
+            </table>
+
+            <section id="tertiaryDetails">
+                <h3>Tertiary at Bicol University</h3>
+                <p>
+                    I currently belong to Bicol University, College of Science's <b>Information Technology</b> Course.
+                    My general weighted average ranges from 1.5 to higher, earning me a spot in each semester's academic scholar awardees.
+                    With my batchmates' trust, I led them as the Vice President of YLO (Year Level Officers) for Information Technology - Year II, A.Y. 2021 - 2022. 
+                </p>
+            </section>
+            <section id="seniorHighDetails">
+                <h3>Senior High at Tabaco National High School</h3>
+                <p>
+                    I took the <b>Science, Technology, Engineering, & Mathematics</b> strand in senior high school.
+                    Tabaco National High School is indeed a breeding ground for future scholars as I was shifting between the awards Honors and High Honors per semester.
+                    I foresaw my future career in <abbr title="Information Technology">IT</abbr> when I reported in Tabaco City Hall for the Work Immersion unit.
+                </p>
+            </section>
+            <section id="juniorHighDetails">
+                <h3>Junior High at Tabaco National High School</h3>
+                <p>
+                    During junior high, I chose <b>Information and Communications Technology</b> (ICT) to specialize in for grades nine and ten.
+                    I took interest in the subject during our one-quarter exploratory course on Computer Hardware Servicing for the<abbr title="Technology and Livelihood Education">TLE</abbr> subject.
+                    Heterogenous classes were implemented during my eighth grade, and before that, I attained the seventh rank for the overall grade seven students. 
+                </p>
+            </section>
+            <section id="elementaryDetails">
+                <h3>Elementary at Tabaco South Central Elementary School</h3>
+                <p>
+                    I acquired the <b>Second honorable mention</b> award on graduation. 
+                </p>
+            </section>
+        </div>
     </main>
 
-    <aside>
+    <!-- <aside>
         <div>
             <cite></cite>
         </div>
@@ -82,7 +126,7 @@
     <h2></h2>
     <form>
 
-    </form>
+    </form> -->
 
     <hr>
     <footer>
