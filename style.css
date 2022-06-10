@@ -90,3 +90,15 @@ a:hover {
     }
 
 }
+
+@media (max-width: 500px) {
+    ul {
+        display: list-item;
+    }
+    .socialMediaLinks {
+        padding: 15px;
+    }
+    td {
+        padding: 0;
+    }
+}
