@@ -47,6 +47,7 @@ div {
 
 table {
     margin: 40px auto;
+    overflow-x: scroll;
 }
 
 td {
@@ -110,23 +111,7 @@ abbr {
     border-radius: 10px;
 }
 
-#constructionNotice{
-    display: none;
-}
-
-#education {
-    display: none;
-}
-#tertiaryDetails {
-    display: none;
-}
-#seniorHighDetails{
-    display: none;
-}
-#juniorHighDetails{
-    display: none;
-}
-#elementaryDetails{
+.hide {
     display: none;
 }
 

@@ -6,23 +6,23 @@ const constructionNotice = document.querySelector("#constructionNotice");
 
 function displayNotice() {
     tabs.forEach((tab) => {
-        tab.style.display = "none";
+        tab.classList.add("hide");
     });
-    constructionNotice.style.display = "block";
+    constructionNotice.classList.remove("hide");
 }
 
 function displayOverview() {
     tabs.forEach((tab) => {
-        tab.style.display = "none";
+        tab.classList.add("hide");
     });
-    overviewTab.style.display = "block";
+    overviewTab.classList.remove("hide");
 }
 
 function displayEducation(){
     tabs.forEach((tab) => {
-        tab.style.display = "none";
+        tab.classList.add("hide");
     });
-    educTab.style.display = "block";
+    educTab.classList.remove("hide");
 }
 
 const sections = document.querySelectorAll("section")
@@ -32,6 +32,6 @@ function expandDetails(paramId) {
         detail.style.display = "none";
     });
     var sectionToExpand = document.querySelector(`#${paramId}`);
-    sectionToExpand.style.display = "block";
+    sectionToExpand.style.display = "";
 }
 
