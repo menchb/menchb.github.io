@@ -1,0 +1,10 @@
+
+*.json
+*.js
+*.mjs
+*.ts
+*.map
+*.md
+node_modules/hey-listen/LICENSE
+*.txt
+*.html
