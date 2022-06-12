@@ -14,7 +14,7 @@ header {
     text-align: center;
 }
 
-ul {
+.navBtns {
     padding: 0;
     display: flex;
     justify-content: center;
@@ -39,6 +39,10 @@ button:hover {
     color: white;
     background-color: silver;
     border-radius: 10px;
+}
+
+button > a {
+    all: unset;
 }
 
 div {
@@ -69,6 +73,11 @@ section {
     border-radius: 10px;
     color: darkslategray;
 }
+
+ul {
+    padding: 0;
+    justify-self: center;
+} 
 
 hr {
     width: 80%;
@@ -111,10 +120,26 @@ abbr {
 .expanded {
     background-color: #cccccc;
     border-radius: 10px;
+    padding: 5px 0;
 }
 
 .hide {
     display: none;
+}
+
+#skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#skills > section {
+    background-color: unset;
+    text-align: center;
+    padding-top: 0;
+}
+
+#skills > section > ul {
+    padding: 0; 
 }
 
 @media (min-aspect-ratio: 4928/3249) {
@@ -122,18 +147,19 @@ abbr {
         background-size: 100vw auto;
     }
 }
+
 @media (max-width: 1200px) {
     main{
         margin: 1in 10%;
     }
     div {
         display: contents;
+        width: auto;
     }
-
 }
 
 @media (max-width: 500px) {
-    ul {
+    .navBtns {
         display: list-item;
     }
     .socialMediaLinks {

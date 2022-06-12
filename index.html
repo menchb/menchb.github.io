@@ -16,12 +16,12 @@
         <img class="icon" src="Belarmino.png" alt="A photo of Menchie Belarmino">
         <h1>Menchie Belarmino</h1>
         <nav>
-            <ul>
+            <ul class="navBtns">
                 <li><button onclick="displayOverview()">Overview</button></li>
                 <li><button onclick="displayEducation()">Education</button></li>
-                <li><button onclick="displayNotice()">Skills</button></li>
-                <li><button onclick="displayNotice()">Projects</button></li>
-                <li><button onclick="displayNotice()">Download Resume</button></li>
+                <li><button onclick="displaySkills()">Skills</button></li>
+                <li><button onclick="displayProjects()">Projects</button></li>
+                <li><button><a href="Belarmino_WebDev.docx" download="Belarmino_WebDev">Download Resume</a></button></li>
             </ul>
         </nav>
     </header>
@@ -115,29 +115,76 @@
                 </p>
             </section>
         </div>
-    </main>
 
-    <!-- <aside>
-        <div>
-            <cite></cite>
+        <div class="hide" id="skills">
+            <section class="hide">
+                <h2>Technicalities</h2>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                    <li>Bootstrap</li>
+                    <li>PHPMyAdmin</li>
+                    <li>MySQL</li>
+                    <li>WordPress CMS</li>
+                    <li>Git Version Control</li>
+                    <li>Visual Studio Code</li>
+                    <li>Adobe Photoshop</li>
+                </ul>
+            </section>
+
+            <section class="hide">
+                <h2>Processes</h2>
+                <ul>
+                    <li>Web building</li>
+                    <li>UI Prototyping</li>
+                    <li>Usability Testing</li>
+                    <li>Database Operations</li>
+                </ul>
+            </section>
+
+            <section class="hide">
+                <h2>Personal</h2>
+                <ul>
+                    <li>Organization</li>
+                    <li>Creativity</li>
+                    <li>Flexibility</li>
+                    <li>Communication</li>
+                    <li>Teamwork</li>
+                    <li>Initiative</li>
+                    <li>Dependability</li>
+                </ul>
+            </section>
         </div>
-    </aside>
 
-    <h2></h2>
-    <form>
-
-    </form> -->
+        <div class="hide" id="projects">
+            <h2>Resume Website</h2>
+            <p>
+                This first project showcases my knowledge in web building
+                using plain codes—HTML, CSS, and JavaScript.
+                <br/><br/>
+                <a href="https://github.com/menchb/menchb.github.io">View Github Repository</a>
+            </p>
+            <h2 id="opshop">Opshop</h2>
+            <p>
+                My sister recently started an online business wherein
+                she sells thrift and branded bags. I utilized this as an opportunity
+                to hone my skills further and create an Ecommerce website.
+                <br/><br/>
+                <a>In progress</a>
+            </p>
+        </div>
+    </main>
 
     <hr>
     <footer>
         <h2>We may connect further here.</h2>
-        <ul>
+        <ul class="navBtns">
             <li class="socialMediaLinks"><a href="https://www.linkedin.com/in/menchie-belarmino/" target="_blank">LinkedIn</a></li>
             <li class="socialMediaLinks"><a href="https://github.com/menchb" target="_blank">Github</a></li>
             <li class="socialMediaLinks"><a href="https://www.facebook.com/menchbela" target="_blank">Facebook</a></li>
         </ul>
-    </footer>
-    
+    </footer>    
 </body>
-
 </html>
