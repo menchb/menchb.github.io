@@ -31,6 +31,8 @@ button {
     background: none;
     color: black;
     padding: 15px;
+    border-radius: 10px;
+    transition: background-color .2s;
 }
 
 button:hover {
@@ -53,6 +55,11 @@ table {
 td {
     padding: 10px;
     text-align: center;
+    transition: font-size .2s .2s;
+}
+
+td:hover {
+    font-size: 110%;
 }
 
 section {
@@ -61,12 +68,7 @@ section {
     background-color: #cccccc;
     border-radius: 10px;
     color: darkslategray;
-    /* transition: padding .5s; */
 }
-
-/* section:visited {
-    padding: 100px 0 0;
-} */
 
 hr {
     width: 80%;
@@ -106,8 +108,8 @@ abbr {
     width: 1in;
 }
 
-.expandable:hover {
-    color: gray;
+.expanded {
+    background-color: #cccccc;
     border-radius: 10px;
 }
 

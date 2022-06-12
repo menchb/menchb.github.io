@@ -26,12 +26,24 @@ function displayEducation(){
 }
 
 const sections = document.querySelectorAll("section")
+const tds = document.querySelectorAll("td")
 
-function expandDetails(paramId) {
+function expandDetails(tdClass, sectionId) {
+
+    // Close all other details
     sections.forEach((detail) => {
-        detail.style.display = "none";
+        detail.classList.add("hide");
     });
-    var sectionToExpand = document.querySelector(`#${paramId}`);
-    sectionToExpand.style.display = "";
+    tds.forEach((td) => {
+        td.classList.remove("expanded");
+    })
+
+    // Expand the specified details
+    var tdToExpand = document.querySelectorAll(`.${tdClass}`);
+    tdToExpand.forEach((singleTd) => {
+        singleTd.classList.add("expanded");  
+    });
+    var sectionToExpand = document.querySelector(`#${sectionId}`);
+    sectionToExpand.classList.remove("hide");
 }
 
