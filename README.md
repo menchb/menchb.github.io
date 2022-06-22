@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+# menchb.github.io
 
-You can use the [editor on GitHub](https://github.com/menchb/menchb.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+__
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Resume Website
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[menchb.github.io](https://menchb.github.io/) serves as my resume website.
 
-```markdown
-Syntax highlighted code block
+This repository showcases how I work with codes — formatting, styles, techniques, and algorithms.
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+![Website screenshot](/Webcapture_menchb.github.io.jpeg)
 
-1. Numbered
-2. List
+__
 
-**Bold** and _Italic_ and `Code` text
+## Meta
 
-[Link](url) and ![Image](src)
-```
+### > License
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+As this is a personal project, no open-source license applies. Default copyright laws apply: I retain all rights to my work; Reproductions, distributions, and modifications are prohibited without my official permission.
 
-### Jekyll Themes
+### > Contact
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/menchb/menchb.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Menchie Belarmino
+<br>menchiebbelarmino@gmail.com
+<br>[LinkedIn](https://www.linkedin.com/in/menchie-belarmino/)
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
